@@ -1,0 +1,56 @@
+/*
+
+	@theme Melo
+    @override-placeholders html, xml, css, sourcecode.js, php, sass
+    @author Derek Reynolds
+    @version 1.0b1
+
+*/
+
+/* Override any defaults */
+
+@base {
+  background-color: rgba(40, 40, 40, 1.0);
+  color: rgba(248, 248, 242, 0.75);
+  selection-background-color: rgba(73, 72, 62, 1.0);
+  insertion-point-color: rgba(248, 248, 242, 1.0);
+}
+
+variable,
+tag name,
+property-name {
+    color: #6db1d5;
+}
+
+keyword,
+django.model,
+selector,
+attribute-name {
+    color: #aa6adb;
+}
+
+operator {
+    color: #694287;
+}
+
+boolean,
+numeric,
+nzumeric {
+    color: #9b8ba8;
+    background: #222;
+}
+
+string {
+    color: #7f9dbd;
+}
+
+punctuation,
+comment,
+comment punctuation.comment,
+* comment punctuation {
+    color: #54606d;
+}
+
+punctuation.terminator {
+    background-color: #212121;
+}
