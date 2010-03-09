@@ -16,4 +16,4 @@ Simply place the `melo.foam` file in your `~/Library/Application\ Support/Espres
 
 ## Notes
 
-Currently only Espresso is support, but I plan on porting to Textmate as soon as I get some free time. If you can't wait, feel free to port it yourself!
+Currently only Espresso is supported, but I plan on porting to Textmate as soon as I get some free time. If you can't wait, feel free to port it yourself!
